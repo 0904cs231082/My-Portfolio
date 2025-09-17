@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Prateet Dhakad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">PD.</a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">I'm open to discussing new projects and opportunities.</p>
+                <div class="contact-content">
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <img src="assets/gmail.svg" alt="Email Icon">
+                            <a href="mailto:prateetdhakad227@gmail.com">prateetdhakad227@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <img src="assets/phone.svg" alt="Phone Icon">
+                            <a href="tel:+91 9691707440">+91 9691707440 </a>
+                        </div>
+                        <div class="contact-item">
+                            <img src="assets/whatshap.svg" alt="WhatsApp Icon">
+                            <a href="https://wa.me/919691707440" target="_blank">Message on WhatsApp</a>
+                        </div>
+                         <div class="contact-item">
+                            <img src="assets/linkedin.svg" alt="LinkedIn Icon">
+                            <a href="https://www.linkedin.com/in/prateet-dhakad-5a9699333" target="_blank">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <p id="form-message" class="hidden"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Prateet Dhakad. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
